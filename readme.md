@@ -53,14 +53,12 @@ Default admin credentials (development):
 - Username: `admin`
 - Password: `admin`
 
-Ganti password admin segera setelah login.
-
 ## Struktur Folder
 
 Keterangan singkat struktur file di repo ini:
 
 ```
-crud-laptop/
+crud-tech-store/
 ├─ create.php        # Form tambah produk
 ├─ store.php         # Endpoint simpan produk (POST)
 ├─ edit.php          # Form edit produk
@@ -80,13 +78,27 @@ crud-laptop/
 ├─ readme.md         # (Anda sedang melihatnya)
 ```
 
-## Screenshot (contoh)
+## Screenshot
 
-Taruh screenshot aplikasi di `assets/screenshot.png` dan tambahkan gambar berikut ke README:
+Dashboard
 
-![Dashboard sample](assets/screenshot.png)
+![Dashboard](assets/dashboard.png)
 
-Jika Anda belum punya screenshot, ambil satu layar dari `dashboard.php` atau `index.php` dan simpan di `assets/screenshot.png`.
+Daftar Produk
+
+![Daftar Produk](assets/daftar.png)
+
+Detail Produk
+
+![Detail Produk](assets/detail.png)
+
+Tambah Produk
+
+![Tambah Produk](assets/tambah.png)
+
+Edit Produk
+
+![Edit Produk](assets/edit.png)
 
 ## Keamanan & Catatan
 
@@ -98,13 +110,3 @@ Jika Anda belum punya screenshot, ambil satu layar dari `dashboard.php` atau `in
 
 - Jika `seed_user.php` gagal, pastikan MySQL berjalan dan kredensial pada bagian atas file sesuai.
 - Jika Chart.js tidak tampil, periksa koneksi internet karena library dimuat via CDN; Anda bisa mengunduhnya dan melokalkan file jika diperlukan.
-
----
-
-Jika Anda ingin, saya bisa:
-
-- Menambahkan flag CLI ke `seed_user.php` untuk menentukan admin username/password.
-- Menambahkan screenshot contoh ke `assets/` untuk Anda.
-- Mengubah `db.php` agar membaca dari `.env`.
-
-Terakhir: jalankan `php .\seed_user.php` lalu buka `http://localhost/crud-laptop/login.php` untuk memulai.
