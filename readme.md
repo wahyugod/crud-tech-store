@@ -1,4 +1,4 @@
-# CRUD Laptop - TechStore Admin
+# CRUD - TechStore Admin
 
 Simple CRUD (Create, Read, Update, Delete) aplikasi manajemen produk built with native PHP and PDO. Aplikasi ini ditujukan sebagai panel admin ringan untuk menyimpan data produk (laptop, smartphone, tablet) termasuk stok, harga, dan spesifikasi sederhana.
 
